@@ -18,7 +18,7 @@ class Program
             Console.Clear();
             Console.WriteLine(string.Format("{0} {1}", scriptureReference.toString(), scriptureMemorizer.toString()));
             Console.WriteLine();
-            Console.WriteLine("Welcome to Scripture Memorizer Game! Press enter to continue ,type 'quit' to finish.");
+            Console.WriteLine("****Welcome to Scripture Memorizer Game! Press enter to continue ,type 'quit' to finish.****");
             userInput = Console.ReadLine();
             scriptureMemorizer.removeWordsFromText();
         }
